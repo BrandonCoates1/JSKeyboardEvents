@@ -12,13 +12,3 @@ window.addEventListener("keypress", (k) => {
     keyValue.textContent = k.which;
     keyCode.textContent = k.code;
 });
-
-window.addEventListener("touchstart", () => {
-    const k = prompt("Enter a character to display the JS keyevents:");
-    keyValueBig.style.fontSize = "6.8vw"
-    keyValueBig.style.marginBottom = "0"
-    keyValueBig.textContent = k.which;
-    keyPressed.textContent = k.key;
-    keyValue.textContent = k.which;
-    keyCode.textContent = k.code;
-});
